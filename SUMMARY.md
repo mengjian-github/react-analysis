@@ -12,3 +12,4 @@
 * [详解ReactMount入口](ru-men-pian/xiang-jie-reactmount-ru-kou.md)
 * [React组件挂载Component细节流程](ru-men-pian/react-zu-jian-gua-zai-component-xi-jie-liu-cheng.md)
 * [DOM挂载细节流程](ru-men-pian/dom-gua-zai-xi-jie-liu-cheng.md)
+* [setState是怎么做到异步化的？](ru-men-pian/setstate-shi-zen-mo-zuo-dao-yi-bu-hua-de.md)
