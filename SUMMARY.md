@@ -14,3 +14,4 @@
 * [DOM挂载细节流程](ru-men-pian/dom-gua-zai-xi-jie-liu-cheng.md)
 * [setState是怎么做到异步化的？](ru-men-pian/setstate-shi-zen-mo-zuo-dao-yi-bu-hua-de.md)
 * [React组件更新流程详解](ru-men-pian/react-zu-jian-geng-xin-liu-cheng-xiang-jie.md)
+* [DOM组件更新流程与Diff算法](ru-men-pian/dom-zu-jian-geng-xin-liu-cheng-yu-diff-suan-fa.md)
