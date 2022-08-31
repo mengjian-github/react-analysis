@@ -11,3 +11,4 @@
 * [React Component是如何实现的？](ru-men-pian/react-component-shi-ru-he-shi-xian-de.md)
 * [详解ReactMount入口](ru-men-pian/xiang-jie-reactmount-ru-kou.md)
 * [React组件挂载Component细节流程](ru-men-pian/react-zu-jian-gua-zai-component-xi-jie-liu-cheng.md)
+* [DOM挂载细节流程](ru-men-pian/dom-gua-zai-xi-jie-liu-cheng.md)
