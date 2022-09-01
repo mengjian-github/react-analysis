@@ -14,5 +14,5 @@
 * [React源码学习入门（九）DOM挂载细节流程](ru-men-pian/dom-gua-zai-xi-jie-liu-cheng.md)
 * [React源码学习入门（十）setState是怎么做到异步化的？](ru-men-pian/setstate-shi-zen-mo-zuo-dao-yi-bu-hua-de.md)
 * [React源码学习入门（十一）React组件更新流程详解](ru-men-pian/react-zu-jian-geng-xin-liu-cheng-xiang-jie.md)
-* [React源码学习入门（十二）DOM组件更新流程与Diff算法](ru-men-pian/react-yuan-ma-xue-xi-ru-men-shi-er-dom-zu-jian-geng-xin-liu-cheng-yu-diff-suan-fa.md)
-* [我用300行代码实现了React](ru-men-pian/wo-yong-300-hang-dai-ma-shi-xian-le-react.md)
+* [React源码学习入门（十二）DOM组件更新流程与Diff算法](ru-men-pian/dom-zu-jian-geng-xin-liu-cheng-yu-diff-suan-fa.md)
+* [React源码学习入门（十三）我用300行代码实现了React](ru-men-pian/react-yuan-ma-xue-xi-ru-men-shi-san-wo-yong-300-hang-dai-ma-shi-xian-le-react.md)
