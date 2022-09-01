@@ -1,4 +1,4 @@
-# React Component是如何实现的？
+# React源码学习入门（六）React Component是如何实现的？
 
 > 本文基于React v15.6.2版本介绍，原因请参见新手如何学习React源码
 
@@ -94,7 +94,7 @@ render() {
 
 源码位于`src/renderers/dom/shared/ReactDOMEmptyComponent.js`：
 
-![](https://files.mdnice.com/user/13429/6d3143f6-2593-4072-aa73-9fb9d7641d28.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7haxh20j20m009egmf.jpg)
 
 `ReactEmptyComponent`是最简单的组件控制类，实际上是由空节点构成，只包含了挂载等核心接口。
 
@@ -102,7 +102,7 @@ render() {
 
 源码位于`src/renderers/dom/shared/ReactDOMTextComponent.js`：
 
-![](https://files.mdnice.com/user/13429/b5ce8088-5920-488a-8303-683f34d2f4d7.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7hbf0y2j20li09qdgp.jpg)
 
 `ReactTextComponent`相对来说也是比较简单的组件，与`ReactDOMEmptyComponent`不同的是，文本节点是有更新逻辑的，更新逻辑为替换其中的文本内容。
 
@@ -110,7 +110,7 @@ render() {
 
 源码位于`src/renderers/dom/shared/ReactDOMComponent.ts`
 
-![](https://files.mdnice.com/user/13429/ecbcf113-d88d-46ce-8302-b60bed10225b.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7hcdiooj20ri0cm3zu.jpg)
 
 `ReactDOMComponent`相对来说一个比较复杂且核心的文件，它实现了整个DOM的挂载、更新、卸载逻辑，整体DOM属性的挂载、更新也是在这里完成。
 
@@ -118,7 +118,7 @@ render() {
 
 源码位于`src/renderers/shared/stack/reconciler/ReactCompositeComponent.js`：
 
-![](https://files.mdnice.com/user/13429/c9329fec-fbd8-4134-bd8b-5a628484b5c0.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7heb2mvj20ru0jgmzf.jpg)
 
 `ReactCompositeComponent`的实现逻辑也较为复杂，但是React核心生命周期都在这里实现，我们写的React组件大多都是需要这个控制类的辅助，最终访问到`DOMComponent`和`TextComponent`，从而实现整体的挂载和更新。
 
