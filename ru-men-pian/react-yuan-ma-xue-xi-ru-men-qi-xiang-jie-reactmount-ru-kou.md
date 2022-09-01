@@ -1,4 +1,4 @@
-# 详解ReactMount入口
+# React源码学习入门（七）详解ReactMount入口
 
 > 本文基于React v15.6.2版本介绍，原因请参见新手如何学习React源码
 
@@ -6,7 +6,7 @@
 
 `ReactMount`的源码位于`src/renderers/dom/client/ReactMount.js`：
 
-![](https://files.mdnice.com/user/13429/c0725be2-4fa4-49a3-9a20-2fd0e0210296.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7ggmfkij20s80dcdha.jpg)
 
 在`ReactMount`中，我们常用的API是`render`和`unmountComponentAtNode`，而`render`则是整个应用的启动入口：
 
