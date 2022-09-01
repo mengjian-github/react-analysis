@@ -1,4 +1,4 @@
-# React组件更新流程详解
+# React源码学习入门（十一）React组件更新流程详解
 
 > 本文基于React v15.6.2版本介绍，原因请参见新手如何学习React源码
 
@@ -278,4 +278,4 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 本文主要分析了React组件的更新过程，重在几个生命周期函数的触发，以及更新策略，具体真正的更新是在DOMComponent中。我们可以简单总结一下React组件更新的流程图：
 
-![](https://files.mdnice.com/user/13429/15087513-121d-42d4-ab25-ab69a70872cd.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7ghhfsfj20x80u0dii.jpg)
