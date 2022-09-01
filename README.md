@@ -1,10 +1,8 @@
 # 新手如何学习React源码
 
-## React源码学习入门（一）新手如何学习React源码
-
 众所周知，对于前端开发来说，React现在已经是非常流行的深受大众喜爱的框架，在我们日常中使用非常广泛：
 
-<figure><img src="https://files.mdnice.com/user/13429/fd295aa1-8899-4b88-b270-4100fbda6441.png" alt=""><figcaption></figcaption></figure>
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7aazcn1j21ff0u0ad7.jpg)
 
 学习React源码可以帮助我们更深入地理解React背后的原理机制，让我们更高效和快速地编写代码，同时也是高级工程师深入技术研究的一个非常好的方向，有助于提升个人的技术深度。
 
@@ -37,7 +35,7 @@
 * React的核心概念是渲染、更新、事件机制，虽然Fiber是一种非常前沿的实验性尝试，但暂时性不看Fiber，能让我们更专注于React其他方面的实现，再返回来看Fiber就会轻松很多。
 * Stack的架构亦是经典，先有同步，而后才可能异步，同步模式也是最容易理解的方式，我们可以比较轻松地实现自己的Stack的版本，对React能有更深入的认知。
 
-<figure><img src="https://files.mdnice.com/user/13429/7f8046b8-87a0-4512-8ce1-b406622199f5.png" alt=""><figcaption></figcaption></figure>
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7ac8350j20zu0kkgnk.jpg)
 
 如上图所示，我们应该让自己处于舒适区的边缘，此时的成长进步才最快。一上来就看Fiber的源码，仿佛就是把自己推向了困难区，真正的从入门到放弃了。
 
@@ -51,7 +49,7 @@
 
 ### 4. 动手实践
 
-<figure><img src="https://files.mdnice.com/user/13429/0814f2df-8c58-49b9-9a61-9c9901fd7386.png" alt=""><figcaption></figcaption></figure>
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7ad1xufj20fi0c03z0.jpg)
 
 大家都知道学习金字塔中阅读是处于顶端的，如果我们只是读一读源码，它只能够成为你的短期记忆知识，并不能内化为自己的能力。
 
