@@ -1,4 +1,4 @@
-# DOM挂载细节流程
+# React源码学习入门（九）DOM挂载细节流程
 
 > 本文基于React v15.6.2版本介绍，原因请参见新手如何学习React源码
 
@@ -237,4 +237,4 @@ mountChildren: function(nestedChildren, transaction, context) {
 
 这里就是React实质挂载执行的叶子节点了，实际上也是DOM树真正形成的起点，当然结合之前我们提到的React组件的挂载流程，实际上就会发现最终能够挂载到DOM上的元素就是这里创建生成的DOM节点，或者是`EmptyComponent`的注释类节点和`TextComponent`生成的文本节点，整体DOM的挂载流程可以总结为下图：
 
-![](https://files.mdnice.com/user/13429/c83ee05e-a680-48e1-b982-7befdaa4b888.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7gxrlgfj20u00u8jts.jpg)
