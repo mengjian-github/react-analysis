@@ -1,6 +1,6 @@
 # Table of contents
 
-* [新手如何学习React源码](README.md)
+* [React源码学习入门（一）新手如何学习React源码](README.md)
 
 ## 入门篇
 

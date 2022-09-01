@@ -1,6 +1,6 @@
 # React源码codebase架构和调试介绍
 
-> 本文基于v15.6.2版本介绍，原因请参见新手如何学习React源码
+> 本文基于v16.6.2版本介绍，原因请参见新手如何学习React源码
 
 ### 代码目录结构
 
@@ -54,7 +54,7 @@ React整体的源码在`src`目录下，我们重点需要关注的几个目录�
 
 ### 宏观架构
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7h966efj21160u0q6x.jpg)
+![](https://files.mdnice.com/user/13429/f2086bb0-8d60-4d9b-aab0-d36b98c929f3.png)
 
 React核心的部分其实是由入口、核心协调器、事件中心、DOM渲染器来实现的，后续的文章我们会从渲染挂载、更新、事件触发等角度详细剖析内部的原理。
 
@@ -71,7 +71,7 @@ yarn build
 
 构建产物生成后，我们可以直接在`examples/`目录的index.html打入断点，这样直接打开HTML文件就可以在浏览器调试了：
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7ha0mnbj21jk0e7q7g.jpg)
+![](https://files.mdnice.com/user/13429/aa4f99a7-1a6a-4e73-8e89-5ca67eb79bb2.png)
 
 ### 小结一下
 
