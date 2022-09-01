@@ -1,4 +1,4 @@
-# setState是怎么做到异步化的？
+# React源码学习入门（十）setState是怎么做到异步化的？
 
 > 本文基于React v15.6.2版本介绍，原因请参见新手如何学习React源码
 
@@ -229,7 +229,7 @@ function runBatchedUpdates(transaction) {
 
 整个React的`setState`异步化，或者说是`update`流程的异步化，其实还是比较难以理解的，要结合我们之前讲解的`transaction`核心原理、`React Mount`挂载过程才可以比较好地理解到，整体异步化的原理我们用一幅图来总结一下：
 
-![](https://files.mdnice.com/user/13429/e2ede7f6-8165-4ad8-b5e3-f76791ac2dcf.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7gz9gtoj21ko0g8act.jpg)
 
 最后我们思考一下React对更新做异步化的原因：
 
