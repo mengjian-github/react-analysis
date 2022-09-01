@@ -1,4 +1,4 @@
-# React组件挂载Component细节流程
+# React源码学习入门（八）React组件挂载Component细节流程
 
 > 本文基于React v15.6.2版本介绍，原因请参见新手如何学习React源码
 
@@ -287,6 +287,6 @@ performInitialMount: function(
 
 上面主要分析了React组件内部是如何实现挂载的，实际上对于一个`ReactCompositeComponent`来说，最终是不会被挂载到浏览器上的，它主要在`reconciler`目录下实现，表示这里的逻辑实际上和平台无关，而是React自身的底层逻辑，我们把重要的步骤画一个图：
 
-![](https://files.mdnice.com/user/13429/c70bceca-3301-4401-b3fb-4a415a42d6fd.png)
+![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5r7gycbroj20ma0usgna.jpg)
 
 实际上，通过实例化、执行render、执行生命周期、递归子组件挂载的过程，就是整个React组件挂载的全貌了，而真正处理挂载的细节逻辑是在叶子节点（DOM处理）上，下篇文章我们将仔细讨论下叶子节点的挂载过程。
