@@ -26,3 +26,5 @@
 
 * [React源码学习进阶（三）rootFiber的创建流程](react-yuan-ma-xue-xi-jin-jie-san-rootfiber-de-chuang-jian-liu-cheng.md)
 * [React源码学习进阶（四）render流程的入口逻辑详解](react-yuan-ma-xue-xi-jin-jie-si-render-liu-cheng-de-ru-kou-luo-ji-xiang-jie.md)
+* [React源码学习进阶（五）beginWork如何处理Fiber](react-yuan-ma-xue-xi-jin-jie-wu-beginwork-ru-he-chu-li-fiber.md)
+* [React源码学习进阶（六）completeWork究竟做了什么](react-yuan-ma-xue-xi-jin-jie-liu-completework-jiu-jing-zuo-le-shi-mo.md)
