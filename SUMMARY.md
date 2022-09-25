@@ -21,3 +21,7 @@
 
 * [React源码学习进阶（一）新版React如何调试源码？](jin-jie-pian/react-yuan-ma-xue-xi-jin-jie-yi-xin-ban-react-ru-he-tiao-shi-yuan-ma.md)
 * [React源码学习进阶（二）初识Fiber架构](jin-jie-pian/react-yuan-ma-xue-xi-jin-jie-er-chu-shi-fiber-jia-gou.md)
+
+***
+
+* [React源码学习进阶（三）rootFiber的创建流程](react-yuan-ma-xue-xi-jin-jie-san-rootfiber-de-chuang-jian-liu-cheng.md)
